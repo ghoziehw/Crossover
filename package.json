@@ -1,0 +1,13 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "scripts": {
+    "ci-all": "npm ci && npm run install-deps",
+    "install-deps": "npm install axios cheerio argparse util"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "argparse": "^2.0.1"
+  }
+}
